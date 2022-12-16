@@ -30,7 +30,8 @@ services:
       POSTGRES_PASSWORD: ${DB_PASSWORD:-dbpassword}
     volumes:
       - ./sql:/docker-entrypoint-initdb.d
-      - dbstorage:/var/lib/postgresql/data
+   //   - dbstorage:/var/lib/postgresql/data
+      - dbstorage:/var/lib/mysql
       
 
 
