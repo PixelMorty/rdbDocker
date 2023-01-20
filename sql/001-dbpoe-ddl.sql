@@ -4,6 +4,7 @@ CREATE TABLE poes(
 	begin_date DATE NOT NULL,
 	end_date DATE NOT NULL,
 	poe_type VARCHAR(10) NOT NULL,
+    description_ VARCHAR(850),
 	CONSTRAINT pk_poes PRIMARY KEY(id)
 );
 
