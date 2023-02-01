@@ -12,11 +12,15 @@ insert into choices (name, question_id)
 insert into choices (name, question_id)
 	values ('Mal', 1);
 
+--C1
 insert into choices (name, question_id)
-	values ('Vert', 2);
-
+	values ('Souvent', 2);
+--C2
 insert into choices (name, question_id)
-	values ('Orange', 2);
-
+	values ('Occasionnellement', 2);
+--C3
 insert into choices (name, question_id)
-	values ('Bleu', 2);
+	values ('Rarement', 2);
+--C3
+insert into choices (name, question_id)
+	values ('Jamais', 2);
