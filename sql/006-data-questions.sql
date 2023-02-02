@@ -11,7 +11,7 @@ insert into questions (title, question_type,favorite)
 	values ('DEFAULT_QUESTION_YES_NO', 'YES_NO',true);
 --Q4
 insert into questions (title, question_type,favorite)
-	values ('Sur quel projet travailles-tu ?', 'FREE_RESPONSE',false);--Q2
+	values ('DEFAULT_QUESTION_FREE_RESPONSE', 'FREE_RESPONSE',true);--Q2
 
 
 insert into questions (title, question_type,favorite)
